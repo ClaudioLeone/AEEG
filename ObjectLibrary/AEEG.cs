@@ -6,7 +6,7 @@ namespace Object
         private List<Region> ItalianRegion = new List<Region>();
         private Dictionary<string, List<Contract>> contract = new Dictionary<string, List<Contract>>();
 
-        public int[] ProductionTOT() // the total production
+        public int[] ProductionTOT() // The total production
         {
             int[] production = new int[2];
             try
@@ -28,12 +28,12 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error during calculation for total production: " + ex.Message);
+                Console.WriteLine("Error when calculating total production: " + ex.Message);
             }
             return production;
         }
 
-        public int[] ConsumptionTOT() // the total consumption
+        public int[] ConsumptionTOT() // The total consumption
         {
             int[] consumption = new int[2];
             try
@@ -46,12 +46,12 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante il calcolo del consumo totale: " + ex.Message);
+                Console.WriteLine("Error when calculating total consumption: " + ex.Message);
             }
             return consumption;
         }
 
-        public List<Region> NotSatisfying() // regions with 3 Strike
+        public List<Region> NotSatisfying() // Regions with 3 Strike
         {
             List<Region> filter = new List<Region>();
             try
@@ -60,12 +60,12 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante la ricerca delle regioni non soddisfacenti: " + ex.Message);
+                Console.WriteLine("Error while searching for lacking Regions: " + ex.Message);
             }
             return filter;
         }
 
-        public List<Region> AutoSufficient() // regions with production greater then comsuption
+        public List<Region> AutoSufficient() // Regions with production > consumption
         {
             List<Region> filter = new List<Region>();
             try
@@ -74,12 +74,12 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante la ricerca delle regioni auto-sufficienti: " + ex.Message);
+                Console.WriteLine("Error while searching for auto-sufficient Regions: " + ex.Message);
             }
             return filter;
         }
 
-        public Region Parsimonious() // region with the less consumption
+        public Region Parsimonious() // Region with lesser consumption
         {
             Region region = ItalianRegion[0];
             try
@@ -94,12 +94,12 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante la ricerca della regione parsimoniosa: " + ex.Message);
+                Console.WriteLine("Error while searching for the most parsimonious Region: " + ex.Message);
             }
             return region;
         }
 
-        public string newContract(Contract contr) //add new contract in section donor and user
+        public string newContract(Contract contr) // Add a new contract
         {
             try
             {
@@ -127,7 +127,7 @@ namespace Object
                     list.Add(contr);
                     contract.TryGetValue(contr.RegionUser, out list);
                     list.Add(contr);
-                    return "the contract is stipulated";
+                    return "The contract has been stipulated successfully";
                 }
                 else
                 {
@@ -136,12 +136,12 @@ namespace Object
             }
             catch (Exception ex)
             {
-                return "Errore durante la stipulazione del contratto: " + ex.Message;
+                return "Error while stipulating the contract: " + ex.Message;
             }
 
         }
 
-        public Region FindRegion(string nameR) // With a name return a region object
+        public Region FindRegion(string nameR) // Return a Region object
         {
             try
             {
@@ -150,12 +150,12 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante la ricerca della regione: " + ex.Message);
+                Console.WriteLine("Error while searching for Region: " + ex.Message);
                 return null;
             }
         }
 
-        public List<Contract> YourContract(Region region) // return list of contract of specific region
+        public List<Contract> YourContract(Region region) // Return a list of contracts between specific Regions
         {
             List<Contract> c = new List<Contract>();
             try
@@ -164,12 +164,12 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante il recupero dei contratti: " + ex.Message);
+                Console.WriteLine("Error while recovering contracts: " + ex.Message);
             }
             return c;
         }
 
-        public List<Region> Regions() // return list of region
+        public List<Region> Regions() // Return a list of Regions
         {
             List<Region> regions = new List<Region>();
             foreach (Region r in ItalianRegion)
@@ -189,7 +189,7 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante la lettura dei file: " + ex.Message);
+                Console.WriteLine("Error while reading files: " + ex.Message);
             }
         }
 
@@ -205,7 +205,7 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante la scrittura dei file: " + ex.Message);
+                Console.WriteLine("Error while writing files: " + ex.Message);
                 return null;
             }
         }

@@ -97,7 +97,7 @@ public class Client
                             catch (FormatException)
                             {
                                 Console.Clear();
-                                Console.WriteLine(" invalid input entered! Quantity for supply must be a number.");
+                                Console.WriteLine("Invalid input entered! Quantity for supply must be a number.");
                                 break;
                             }
 
@@ -107,7 +107,7 @@ public class Client
                             if (!Regex.IsMatch(DateEnd, @"^\d{2}/\d{2}/\d{4}$"))
                             {
                                 Console.Clear();
-                                Console.WriteLine(" incorrect format entered! Valid date format: dd/mm/yyyy");
+                                Console.WriteLine("Incorrect format entered! Valid date format: dd/mm/yyyy");
                                 break;
                             }
 
