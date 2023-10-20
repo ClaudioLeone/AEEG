@@ -5,7 +5,7 @@ namespace Json
     public class RunJson
     {
 
-        public void ReadFile(AEEG aeeg) // Read the file and write in the Dictionaries
+        public void ReadFile(AEEG aeeg) // Read and deserialize the file
         {
             try
             {
@@ -17,11 +17,11 @@ namespace Json
             }
             catch(Exception ex)
             {
-                Console.WriteLine("Errore durante la lettura dei file: " + ex.Message);
+                Console.WriteLine("An error occurred while reading files: " + ex.Message);
             }
         }
 
-        public void WriteFile(AEEG aeeg) // Write the file with the Sictionaries
+        public void WriteFile(AEEG aeeg) // Write and serialize the file
         {
             try
             {
@@ -32,7 +32,7 @@ namespace Json
             }
             catch(Exception ex)
             {
-                Console.WriteLine("Errore durante la scrittura dei file: " + ex.Message);
+                Console.WriteLine("An error occurred while writing files: " + ex.Message);
             }
         }
     }

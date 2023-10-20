@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wwjXSIGDO8e1gC6HqKGN7+HjfkjXkZnKjO+OOeNdf+Mveq/z5b4fRM6Wp/uZ4aVEgtkswH+iV0UrqfZxezj6rw==",
+  "dgSpecHash": "Uu+oYlC8TZN2df5fO5y75+oXiqf+YHlKjDZEh3y9wtwMnVofDd6lZTyoX7tl4VWnLSSW4Bo1az2Px0zp2RasYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FMF-Guest\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\FMF-Guest\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Clale\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

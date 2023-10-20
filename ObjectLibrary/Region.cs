@@ -18,7 +18,7 @@ namespace Object
             Structure = structure;
         }
 
-        public int[] Production() // calculate the region production
+        public int[] Production() // Calculate Region production
         {
             int[] production = new int[2];
             foreach (Structure s in Structure)
@@ -32,7 +32,7 @@ namespace Object
                 }
             return production;
         }
-        public bool ICanDo(List<Contract> contracts, string what, int donation) // verify if the region can give energy or gas
+        public bool ICanDo(List<Contract> contracts, string what, int donation) // Verify if Region can give electricity or gas
         {
             int contractDonation = 0;
             if (what == "Electricity")
@@ -72,7 +72,7 @@ namespace Object
                 }
             }
             else{
-                Console.WriteLine("input not valid");
+                Console.WriteLine("Warning: invalid input entered.");
             }
             return false;
         }

@@ -10,7 +10,7 @@ public class Client
             DateTime currentDate = DateTime.Now;
             string Date = currentDate.ToString("dd/MM/yyyy");
 
-            Console.WriteLine("MENU:\n1. Login\n2. National Production\n3. Print National Status\n4. Print Auto-Sufficient Regions\n5. Print Not Satisfying Regions\n6. Print Parsimonious Regions\n7. Exit");
+            Console.WriteLine("MENU:\n1. Login\n2. Total National Production\n3. Print National Status\n4. Print Auto-Sufficient Regions\n5. Print Lacking Regions\n6. Print Parsimonious Regions\n7. Exit");
             int input;
             try
             {
@@ -18,7 +18,8 @@ public class Client
             }
             catch (FormatException)
             {
-                Console.WriteLine("Input non valido. Inserire un numero.");
+                Console.Clear();
+                Console.WriteLine(" input must be a number! Retry.");
                 continue;
             }
 
@@ -30,18 +31,19 @@ public class Client
                     {
                         Console.WriteLine($"{region.RegionName}");
                     }
-                    Console.WriteLine("select your region");
+                    Console.WriteLine("\nSelect your Region:");
                     string? nameRegion = Console.ReadLine();
 
                     if (!Regex.IsMatch(nameRegion, @"^[a-zA-Z\s]+$"))
                     {
-                        Console.WriteLine("Nome della regione non valido. Inserire solo lettere e spazi.");
+                        Console.WriteLine("Inexistent Region entered: enter a valid name or check for typos.");
                         break;
                     }
 
                     Region nameR = aeeg.FindRegion(nameRegion);
                     if(nameR == null){
-                        Console.WriteLine("valore inserito non valido");
+                        Console.Clear();
+                        Console.WriteLine(" invalid input! Retry.");
                         break;
                     }
 
@@ -53,7 +55,8 @@ public class Client
                     }
                     catch (FormatException)
                     {
-                        Console.WriteLine("Input non valido. Inserire un numero.");
+                        Console.Clear();
+                        Console.WriteLine(" input must be a number! Retry.");
                         break;
                     }
 
@@ -65,48 +68,52 @@ public class Client
 
                             if (!Regex.IsMatch(RequestRegion, @"^[a-zA-Z\s]+$"))
                             {
-                                Console.WriteLine("Nome della regione richiesta non valido. Inserire solo lettere e spazi.");
+                                Console.WriteLine("Inexistent Region entered: enter a valid name or check for typos.");
                                 break;
                             }
                             Region RequestR = aeeg.FindRegion(RequestRegion);
                             if(RequestR == null){
-                                Console.WriteLine("la regione inserita non esiste");
+                                Console.Clear();
+                                Console.WriteLine(" invalid input! Retry.");
                                 break;
                             }
 
-                            Console.WriteLine("What Do You Want Request? 'Electricity' 'Gas'");
+                            Console.WriteLine("For what type of energy do you want to request a supply? 'Electricity' 'Gas'");
                             string? RequestType = Console.ReadLine();
 
-                            if (!Regex.IsMatch(RequestType, @"^(Electricity|Gas)$", RegexOptions.IgnoreCase))
+                            if (!Regex.IsMatch(RequestType.ToUpper(), @"^(Electricity|Gas)$", RegexOptions.IgnoreCase))
                             {
-                                Console.WriteLine("Tipo di richiesta non valido. Inserire 'Electricity' o 'Gas'.");
+                                Console.Clear();
+                                Console.WriteLine(" invalid input entered! Input must be one of the two choices shown.");
                                 break;
                             }
 
                             int HowMany;
                             try
                             {
-                                Console.WriteLine("How Many Energy You Want Request (GW in Day)");
+                                Console.WriteLine("How much energy (per day) do you want to request the supply for?");
                                 HowMany = int.Parse(Console.ReadLine());
                             }
                             catch (FormatException)
                             {
-                                Console.WriteLine("Valore non valido per l'energia richiesta.");
+                                Console.Clear();
+                                Console.WriteLine("Invalid input entered! Quantity for supply must be a number.");
                                 break;
                             }
 
-                            Console.WriteLine("When You Want End Contract?");
+                            Console.WriteLine("Enter an expiration date for the supply contract: ");
                             string? DateEnd = Console.ReadLine();
 
                             if (!Regex.IsMatch(DateEnd, @"^\d{2}/\d{2}/\d{4}$"))
                             {
-                                Console.WriteLine("Data di fine contratto non valida. Formato valido: dd/mm/yyyy");
+                                Console.Clear();
+                                Console.WriteLine("Incorrect format entered! Valid date format: dd/mm/yyyy");
                                 break;
                             }
 
                             if (nameR.Strike == 3)
                             {
-                                Console.WriteLine("You Can't Stipulate A Contract With This Region, You Have Three Strikes");
+                                Console.WriteLine("You can't stipulate any contract: you have already reached the maximum limit of requests for supplies.");
                                 break;
                             }
 
@@ -117,58 +124,63 @@ public class Client
                             }
                             catch (Exception ex)
                             {
-                                Console.WriteLine("Errore durante la stipulazione del contratto: " + ex.Message);
+                                Console.Clear();
+                                Console.WriteLine("WARNING! The contract was NOT stipulated due to the following error:" + ex.Message);
                             }
                             break;
                         case 2:
-                            Console.WriteLine("What You Want To Add?\n1. Wind\n2.Dam\n3.Electric\n4.Gas Distribution Plant");
+                            Console.WriteLine("What structure do you want to ADD?\n1. Wind Farm\n2. Dam\n3. Power Plant\n4. Gas Distribution Plant");
                             int input3 = int.Parse(Console.ReadLine());
                             switch (input3)
                             {
                                 case 1:
-                                    nameR.Structure.Add(new Structure(true, "Wind", 1000));
+                                    nameR.Structure.Add(new Structure(true, "Wind Farm", 1000));
                                     break;
                                 case 2:
                                     nameR.Structure.Add(new Structure(true, "Dam", 400));
                                     break;
                                 case 3:
-                                    nameR.Structure.Add(new Structure(true, "Electric", 1200));
+                                    nameR.Structure.Add(new Structure(true, "Power Plant", 1200));
                                     break;
                                 case 4:
                                     nameR.Structure.Add(new Structure(true, "Gas Distribution Plant", 100000));
                                     break;
                                 default:
-                                    Console.WriteLine("incorrect value");
+                                    Console.Clear();
+                                    Console.WriteLine(" input number must be one from the menu! Retry.");
                                     break;
                             }
-                            Console.WriteLine("Structure Added Successfully");
+                            Console.Clear();
+                            Console.WriteLine("Success: the structure has been added!");
                             break;
                         case 3:
-                            Console.WriteLine("What You Want To Remove?\n1. Wind\n2.Dam\n3.Electric\n4.Gas Distribution Plant");
+                            Console.WriteLine("What structure do you want to REMOVE?\n1. Wind Farm\n2. Dam\n3. Power Plant\n4. Gas Distribution Plant");
                             int input4 = int.Parse(Console.ReadLine());
                             switch (input4)
                             {
                                 case 1:
-                                    Structure? wind = nameR.Structure.Find(s => s.Work == true && s.Type == "Wind");
-                                    wind.changeWork();
+                                    Structure? wind = nameR.Structure.Find(s => s.Work == true && s.Type == "Wind Farm");
+                                    wind?.changeWork();
                                     break;
                                 case 2:
                                     Structure? dam = nameR.Structure.Find(s => s.Work == true && s.Type == "Dam");
-                                    dam.changeWork();
+                                    dam?.changeWork();
                                     break;
                                 case 3:
-                                    Structure? electric = nameR.Structure.Find(s => s.Work == true && s.Type == "Electric");
-                                    electric.changeWork();
+                                    Structure? electric = nameR.Structure.Find(s => s.Work == true && s.Type == "Power Plant");
+                                    electric?.changeWork();
                                     break;
                                 case 4:
                                     Structure? Gas = nameR.Structure.Find(s => s.Work == true && s.Type == "Gas Distribuction Plant");
-                                    Gas.changeWork();
+                                    Gas?.changeWork();
                                     break;
                                 default:
-                                    Console.WriteLine("incorrect value");
+                                    Console.Clear();
+                                    Console.WriteLine(" invalid input entered. Retry.");
                                     break;
                             }
-                            Console.WriteLine("A Structure Has Been Shut Down Successfully");
+                            Console.Clear();
+                            Console.WriteLine("Success: the structure has been removed!");
                             break;
                         case 4:
                             List<Contract> yourContrats = aeeg.YourContract(nameR);
@@ -183,13 +195,14 @@ public class Client
                         case 6:
                             return;
                         default:
-                            Console.WriteLine("incorrect value");
+                            Console.Clear();
+                            Console.WriteLine(" invalid input entered. Retry.");
                             break;
                     }
                     break;
                 case 2:
                     int[] tot = aeeg.ProductionTOT();
-                    Console.WriteLine($"Energy Production: {tot[0]} GW\nGas Production: {tot[1]} Cm");
+                    Console.WriteLine($"Electricity production: {tot[0]} GigaWatts\nGas Production: {tot[1]} CubicMeters");
                     break;
                 case 3:
                 List<Region> regions = aeeg.Regions();
@@ -210,12 +223,15 @@ public class Client
                     break;
                 case 6:
                     Region Parsimonious = aeeg.Parsimonious();
-                    Console.WriteLine($"The Most Parsimonious Region Is {Parsimonious}");
+                    Console.WriteLine($"The most parsimonious region is {Parsimonious}");
                     break;
                 case 7:
+                    Console.Clear();
+                    Console.WriteLine("Goodbye!");
                     return;
                 default:
-                    Console.WriteLine("incorrect value");
+                    Console.Clear();
+                    Console.WriteLine("Warning: invalid input entered. Retry.");
                     break;
             }
             json.WriteFile(aeeg);

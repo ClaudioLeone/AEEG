@@ -21,7 +21,7 @@ namespace Object
         }
         public override string ToString()
         {
-            return $"{RegionDonor} give {DonationValue} of {WhatToDonate} at {RegionUser}, from {DateStart} to {DateEnd}";
+            return $"'{RegionDonor}' must provide {DonationValue} of '{WhatToDonate}' to '{RegionUser}', from {DateStart} to {DateEnd}";
         }
     }
 }

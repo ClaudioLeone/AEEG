@@ -444,7 +444,9 @@
       { "Work": true, "Type": "Gas Distribution Plant", "Production": 100000 },
       { "Work": true, "Type": "Gas Distribution Plant", "Production": 100000 },
       { "Work": true, "Type": "Gas Distribution Plant", "Production": 100000 },
-      { "Work": true, "Type": "Gas Distribution Plant", "Production": 100000 }
+      { "Work": true, "Type": "Gas Distribution Plant", "Production": 100000 },
+      { "Work": true, "Type": "Power Plant", "Production": 1200 },
+      { "Work": true, "Type": "Wind Farm", "Production": 1000 }
     ]
   }
 ]
