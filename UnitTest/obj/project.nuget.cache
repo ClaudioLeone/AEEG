@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/0FY/xbkZuSe00WLg3GXywEcDm27t3XAMF6n5Ah/ZwELKq0yBI8xjeRK64tQQ+3nTU7s4FvXntnth5632eMbdA==",
+  "dgSpecHash": "wCOEMT/I/2Ete9VFd5+DO4HnYifaCEhl0JEzIwSa6kspOzi2br+JF1dIMxxtg5iT69OPN4bpihHRZ3c1gr6VFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\UnitTest\\UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\FMF-Guest\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FMF-Guest\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\FMF-Guest\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",

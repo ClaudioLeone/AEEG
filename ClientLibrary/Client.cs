@@ -25,7 +25,8 @@ public class Client
             switch (input)
             {
                 case 1:
-                    foreach (Region region in aeeg.ItalianRegion)
+                List<Region> RegionName = aeeg.Regions();
+                    foreach (Region region in RegionName)
                     {
                         Console.WriteLine($"{region.RegionName}");
                     }
@@ -191,7 +192,8 @@ public class Client
                     Console.WriteLine($"Energy Production: {tot[0]} GW\nGas Production: {tot[1]} Cm");
                     break;
                 case 3:
-                    foreach (Region region in aeeg.ItalianRegion)
+                List<Region> regions = aeeg.Regions();
+                    foreach (Region region in regions)
                     {
                         Console.WriteLine(region);
                     }

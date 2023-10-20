@@ -2383,11 +2383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\UnitTest\\UnitTest.csproj",
+      "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\FMF-Guest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\UnitTest\\obj\\",
+      "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\GitHub\\AEEG\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2409,8 +2409,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\AEEG\\AEEG.csproj": {
-              "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\AEEG\\AEEG.csproj"
+            "C:\\Users\\FMF-Guest\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj": {
+              "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj"
             }
           }
         }

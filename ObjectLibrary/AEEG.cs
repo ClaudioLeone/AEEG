@@ -3,7 +3,7 @@ namespace Object
 {
     public class AEEG
     {
-        public List<Region> ItalianRegion = new List<Region>();
+        private List<Region> ItalianRegion = new List<Region>();
         private Dictionary<string, List<Contract>> contract = new Dictionary<string, List<Contract>>();
 
         public int[] ProductionTOT() // the total production
@@ -167,6 +167,16 @@ namespace Object
                 Console.WriteLine("Errore durante il recupero dei contratti: " + ex.Message);
             }
             return c;
+        }
+
+        public List<Region> Regions() // return list of region
+        {
+            List<Region> regions = new List<Region>();
+            foreach (Region r in ItalianRegion)
+            {
+                regions.Add(r);
+            }
+            return regions;
         }
 
         public void DeserializeFile(string json, string json2) // Read the file and write in the Dictionaries
