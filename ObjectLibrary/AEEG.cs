@@ -28,7 +28,7 @@ namespace Object
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Errore durante il calcolo della produzione totale: " + ex.Message);
+                Console.WriteLine("Error during calculation for total production: " + ex.Message);
             }
             return production;
         }
