@@ -1,0 +1,12 @@
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\bin\Debug\net7.0\ObjectLibrary.deps.json
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\bin\Debug\net7.0\ObjectLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\bin\Debug\net7.0\ObjectLibrary.pdb
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\ObjectLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\ObjectLibrary.AssemblyInfoInputs.cache
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\ObjectLibrary.AssemblyInfo.cs
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\ObjectLibrary.csproj.CoreCompileInputs.cache
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\ObjectLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\refint\ObjectLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\ObjectLibrary.pdb
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\ref\ObjectLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ObjectLibrary\obj\Debug\net7.0\ObjectLibrary.csproj.AssemblyReference.cache

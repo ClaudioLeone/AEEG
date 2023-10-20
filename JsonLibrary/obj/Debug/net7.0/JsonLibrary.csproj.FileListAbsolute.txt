@@ -1,0 +1,15 @@
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\bin\Debug\net7.0\JsonLibrary.deps.json
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\bin\Debug\net7.0\JsonLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\bin\Debug\net7.0\JsonLibrary.pdb
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\JsonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\JsonLibrary.AssemblyInfoInputs.cache
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\JsonLibrary.AssemblyInfo.cs
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\JsonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\JsonLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\refint\JsonLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\JsonLibrary.pdb
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\ref\JsonLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\bin\Debug\net7.0\ObjectLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\bin\Debug\net7.0\ObjectLibrary.pdb
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\JsonLibrary.csproj.AssemblyReference.cache
+C:\Users\FMF-Guest\Desktop\AEEG\JsonLibrary\obj\Debug\net7.0\JsonLibrary.csproj.CopyComplete

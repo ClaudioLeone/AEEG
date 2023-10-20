@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\AEEG\\AEEG.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\AEEG\\AEEG.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\AEEG\\AEEG.csproj",
+        "projectName": "AEEG",
+        "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\AEEG\\AEEG.csproj",
+        "packagesPath": "C:\\Users\\FMF-Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\AEEG\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FMF-Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ClientLibrary\\ClientLibrary.csproj"
+              },
+              "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\JsonLibrary\\JsonLibrary.csproj"
+              },
+              "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
+        "projectName": "ClientLibrary",
+        "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
+        "packagesPath": "C:\\Users\\FMF-Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ClientLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FMF-Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\JsonLibrary\\JsonLibrary.csproj"
+              },
+              "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+        "projectName": "JsonLibrary",
+        "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+        "packagesPath": "C:\\Users\\FMF-Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\JsonLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FMF-Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+        "projectName": "ObjectLibrary",
+        "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+        "packagesPath": "C:\\Users\\FMF-Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\EXERCISES\\AEEG\\ObjectLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FMF-Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

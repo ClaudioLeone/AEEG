@@ -1,0 +1,17 @@
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\bin\Debug\net7.0\ClientLibrary.deps.json
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\bin\Debug\net7.0\ClientLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\bin\Debug\net7.0\ClientLibrary.pdb
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ClientLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ClientLibrary.AssemblyInfoInputs.cache
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ClientLibrary.AssemblyInfo.cs
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ClientLibrary.csproj.CoreCompileInputs.cache
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ClientLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\refint\ClientLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ClientLibrary.pdb
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ref\ClientLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\bin\Debug\net7.0\ObjectLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\bin\Debug\net7.0\ObjectLibrary.pdb
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ClientLibrary.csproj.AssemblyReference.cache
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\obj\Debug\net7.0\ClientLibrary.csproj.CopyComplete
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\bin\Debug\net7.0\JsonLibrary.dll
+C:\Users\FMF-Guest\Desktop\AEEG\ClientLibrary\bin\Debug\net7.0\JsonLibrary.pdb
