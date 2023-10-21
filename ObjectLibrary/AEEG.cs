@@ -1,3 +1,4 @@
+using System.Runtime.Serialization;
 using Newtonsoft.Json;
 namespace Object
 {
@@ -187,9 +188,9 @@ namespace Object
 
             contract = JsonConvert.DeserializeObject<Dictionary<string, List<Contract>>>(json2);
             }
-            catch (Exception ex)
+            catch (SerializationException ex)
             {
-                Console.WriteLine("Error while reading files: " + ex.Message);
+                Console.WriteLine("WARNING: an error occurred while writing files: " + ex.Message);
             }
         }
 
@@ -203,9 +204,9 @@ namespace Object
             
             return(jsons);
             }
-            catch (Exception ex)
+            catch (SerializationException ex)
             {
-                Console.WriteLine("Error while writing files: " + ex.Message);
+                Console.WriteLine("WARNING: an error occurred while writing files: " + ex.Message);
                 return null;
             }
         }

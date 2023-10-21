@@ -1,3 +1,5 @@
+using System.Runtime.Serialization;
+using Newtonsoft.Json.Serialization;
 using Object;
 
 namespace Json
@@ -15,9 +17,9 @@ namespace Json
 
             aeeg.DeserializeFile(json, json2);
             }
-            catch(Exception ex)
+            catch(SerializationException ex)
             {
-                Console.WriteLine("An error occurred while reading files: " + ex.Message);
+                Console.WriteLine("WARNING: An error occurred while reading files: " + ex.Message);
             }
         }
 
@@ -30,9 +32,9 @@ namespace Json
 
             File.WriteAllText("../JsonLibrary/Contracts.json", jsons[1]);
             }
-            catch(Exception ex)
+            catch(SerializationException ex)
             {
-                Console.WriteLine("An error occurred while writing files: " + ex.Message);
+                Console.WriteLine("WARNING: an error occurred while writing files: " + ex.Message);
             }
         }
     }
