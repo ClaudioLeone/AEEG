@@ -16,10 +16,10 @@ public class Client
             {
                 input = int.Parse(Console.ReadLine());
             }
-            catch (FormatException)
+            catch (FormatException ex)
             {
                 Console.Clear();
-                Console.WriteLine("Input must be a number! Retry.");
+                Console.WriteLine("Warning: {ex.Message}\nInput must be a number! Retry.");
                 continue;
             }
 
@@ -54,10 +54,10 @@ public class Client
                     {
                         input2 = int.Parse(Console.ReadLine());
                     }
-                    catch (FormatException)
+                    catch (FormatException ex)
                     {
                         Console.Clear();
-                        Console.WriteLine("Input must be a number! Retry.");
+                        Console.WriteLine($"Warning: {ex.Message}\nInput must be a number! Retry.Retry.");
                         break;
                     }
 
@@ -96,10 +96,10 @@ public class Client
                                 Console.WriteLine("How much energy (per day) do you want to request the supply for?");
                                 HowMany = int.Parse(Console.ReadLine());
                             }
-                            catch (FormatException)
+                            catch (FormatException ex)
                             {
                                 Console.Clear();
-                                Console.WriteLine("Invalid input entered! Quantity for supply must be a number.");
+                                Console.WriteLine($"Warning: {ex.Message}\nInvalid input entered! Quantity for supply must be a number.");
                                 break;
                             }
 
@@ -189,7 +189,7 @@ public class Client
                     return;
                 default:
                     Console.Clear();
-                    Console.WriteLine("Warning:Invalid input entered. Retry.");
+                    Console.WriteLine("Warning: invalid input entered. Retry.");
                     break;
             }
             json.WriteFile(aeeg);
