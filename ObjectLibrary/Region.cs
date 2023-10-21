@@ -57,7 +57,7 @@ namespace Object
             }
             catch (Exception ex)
             {
-                return $" input number must be one from the menu! Retry." + ex.Message;
+                return $"Warning: {ex.Message}\nInput number must be one from the menu! Retry.";
             }
         }
         public string DontWorkStructure(int input) // remove frome list one structure because don't work
@@ -83,13 +83,13 @@ namespace Object
                         Gas?.changeWork();
                         break;
                     default:
-                        return $" invalid input entered. Retry.";
+                        return $"Invalid input entered. Retry.";
                 }
                 return $"Success: the structure has been removed!";
             }
-            catch (Exception ex)
+            catch (FormatException ex)
             {
-                return $" invalid input entered. Retry.";
+                return $"Warning: {ex.Message}\nInvalid input entered. Retry.";
             }
         }
         public bool ICanDo(List<Contract> contracts, string what, int donation) // Verify if Region can give electricity or gas

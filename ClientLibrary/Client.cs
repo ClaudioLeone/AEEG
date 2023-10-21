@@ -16,10 +16,10 @@ public class Client
             {
                 input = int.Parse(Console.ReadLine());
             }
-            catch (FormatException)
+            catch (FormatException ex)
             {
                 Console.Clear();
-                Console.WriteLine(" input must be a number! Retry.");
+                Console.WriteLine("Warning: {ex.Message}\nInput must be a number! Retry.");
                 continue;
             }
 
@@ -44,7 +44,7 @@ public class Client
                     if (nameR == null)
                     {
                         Console.Clear();
-                        Console.WriteLine(" invalid input! Retry.");
+                        Console.WriteLine("Invalid input! Retry.");
                         break;
                     }
 
@@ -54,10 +54,10 @@ public class Client
                     {
                         input2 = int.Parse(Console.ReadLine());
                     }
-                    catch (FormatException)
+                    catch (FormatException ex)
                     {
                         Console.Clear();
-                        Console.WriteLine(" input must be a number! Retry.");
+                        Console.WriteLine($"Warning: {ex.Message}\nInput must be a number! Retry.Retry.");
                         break;
                     }
 
@@ -76,7 +76,7 @@ public class Client
                             if (RequestR == null)
                             {
                                 Console.Clear();
-                                Console.WriteLine(" invalid input! Retry.");
+                                Console.WriteLine("Invalid input! Retry.");
                                 break;
                             }
 
@@ -86,7 +86,7 @@ public class Client
                             if (!Regex.IsMatch(RequestType.ToUpper(), @"^(Electricity|Gas)$", RegexOptions.IgnoreCase))
                             {
                                 Console.Clear();
-                                Console.WriteLine(" invalid input entered! Input must be one of the two choices shown.");
+                                Console.WriteLine("Invalid input entered! Input must be one of the two choices shown.");
                                 break;
                             }
 
@@ -96,10 +96,10 @@ public class Client
                                 Console.WriteLine("How much energy (per day) do you want to request the supply for?");
                                 HowMany = int.Parse(Console.ReadLine());
                             }
-                            catch (FormatException)
+                            catch (FormatException ex)
                             {
                                 Console.Clear();
-                                Console.WriteLine("Invalid input entered! Quantity for supply must be a number.");
+                                Console.WriteLine($"Warning: {ex.Message}\nInvalid input entered! Quantity for supply must be a number.");
                                 break;
                             }
 
@@ -154,7 +154,7 @@ public class Client
                             return;
                         default:
                             Console.Clear();
-                            Console.WriteLine(" invalid input entered. Retry.");
+                            Console.WriteLine("Invalid input entered. Retry.");
                             break;
                     }
                     break;
