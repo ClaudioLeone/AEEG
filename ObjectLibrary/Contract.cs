@@ -3,12 +3,12 @@ namespace Object
 
     public class Contract
     {
-        public string? RegionDonor { get; set; }
-        public string? RegionUser { get; set; }
-        public string? DateStart { get; set; }
-        public string? DateEnd { get; set; }
-        public string? WhatToDonate { get; set; }
-        public int DonationValue { get; set; }
+        public string? RegionDonor { get; private set; }
+        public string? RegionUser { get; private set; }
+        private string? DateStart { get; set; }
+        private string? DateEnd { get; set; }
+        public string? WhatToDonate { get; private set; }
+        public int DonationValue { get; private set; }
 
         public Contract(string? regiondonor, string? regionuser, string? dateStart, string? dateEnd, string? whatdonate, int donationvalue)
         {
