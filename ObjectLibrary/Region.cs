@@ -1,8 +1,5 @@
-using System.Security.Principal;
-
 namespace Object
 {
-
     public class Region
     {
         public string? RegionName { get; private set; }
