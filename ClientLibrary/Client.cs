@@ -133,12 +133,12 @@ public class Client
                         case 2:
                             Console.WriteLine("What structure do you want to ADD?\n1. Wind Farm\n2. Dam\n3. Power Plant\n4. Gas Distribution Plant");
                             int input3 = int.Parse(Console.ReadLine());
-                            nameR.AddStructure(input3);
+                            Console.WriteLine(nameR.AddStructure(input3));
                             break;
                         case 3:
                             Console.WriteLine("What structure do you want to REMOVE?\n1. Wind Farm\n2. Dam\n3. Power Plant\n4. Gas Distribution Plant");
                             int input4 = int.Parse(Console.ReadLine());
-                            nameR.DontWorkStructure(input4);
+                            Console.WriteLine(nameR.DontWorkStructure(input4));
                             break;
                         case 4:
                             List<Contract> yourContrats = aeeg.YourContract(nameR);

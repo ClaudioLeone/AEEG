@@ -35,7 +35,7 @@ namespace Object
             return production;
         }
 
-        public void AddStructure(int input)
+        public string AddStructure(int input) // add in region private list one structure
         {
             try
             {
@@ -54,46 +54,46 @@ namespace Object
                         Structure.Add(new Structure(true, "Gas Distribution Plant", 100000));
                         break;
                     default:
-                        Console.Clear();
-                        Console.WriteLine(" input number must be one from the menu! Retry.");
-                        break;
+                        return $" input number must be one from the menu! Retry.";
                 }
-                Console.Clear();
-                Console.WriteLine("Success: the structure has been added!");
+                return $"Success: the structure has been added!";
             }
             catch (Exception ex)
             {
-                Console.Clear();
-                Console.WriteLine(" input number must be one from the menu! Retry." + ex.Message);
+                return $" input number must be one from the menu! Retry." + ex.Message;
             }
         }
-        public void DontWorkStructure(int input)
+        public string DontWorkStructure(int input) // remove frome list one structure because don't work
         {
-            switch (input)
+            try
             {
-                case 1:
-                    Structure? wind = Structure.Find(s => s.Work == true && s.Type == "Wind Farm");
-                    wind?.changeWork();
-                    break;
-                case 2:
-                    Structure? dam = Structure.Find(s => s.Work == true && s.Type == "Dam");
-                    dam?.changeWork();
-                    break;
-                case 3:
-                    Structure? electric = Structure.Find(s => s.Work == true && s.Type == "Power Plant");
-                    electric?.changeWork();
-                    break;
-                case 4:
-                    Structure? Gas = Structure.Find(s => s.Work == true && s.Type == "Gas Distribuction Plant");
-                    Gas?.changeWork();
-                    break;
-                default:
-                    Console.Clear();
-                    Console.WriteLine(" invalid input entered. Retry.");
-                    break;
+                switch (input)
+                {
+                    case 1:
+                        Structure? wind = Structure.Find(s => s.Work == true && s.Type == "Wind Farm");
+                        wind?.changeWork();
+                        break;
+                    case 2:
+                        Structure? dam = Structure.Find(s => s.Work == true && s.Type == "Dam");
+                        dam?.changeWork();
+                        break;
+                    case 3:
+                        Structure? electric = Structure.Find(s => s.Work == true && s.Type == "Power Plant");
+                        electric?.changeWork();
+                        break;
+                    case 4:
+                        Structure? Gas = Structure.Find(s => s.Work == true && s.Type == "Gas Distribuction Plant");
+                        Gas?.changeWork();
+                        break;
+                    default:
+                        return $" invalid input entered. Retry.";
+                }
+                return $"Success: the structure has been removed!";
             }
-            Console.Clear();
-            Console.WriteLine("Success: the structure has been removed!");
+            catch (Exception ex)
+            {
+                return $" invalid input entered. Retry.";
+            }
         }
         public bool ICanDo(List<Contract> contracts, string what, int donation) // Verify if Region can give electricity or gas
         {
