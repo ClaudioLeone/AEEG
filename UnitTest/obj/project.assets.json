@@ -601,6 +601,7 @@
         "dependencies": {
           "ClientLibrary": "1.0.0",
           "JsonLibrary": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
           "ObjectLibrary": "1.0.0"
         },
         "compile": {
@@ -2377,19 +2378,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vittorio\\.nuget\\packages\\": {}
+    "C:\\Users\\Clale\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "C:\\Users\\Vittorio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vittorio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -2401,8 +2402,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj": {
-              "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj"
+            "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj": {
+              "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj"
             }
           }
         }

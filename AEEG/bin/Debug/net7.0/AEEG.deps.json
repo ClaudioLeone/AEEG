@@ -10,6 +10,7 @@
         "dependencies": {
           "ClientLibrary": "1.0.0",
           "JsonLibrary": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
           "ObjectLibrary": "1.0.0"
         },
         "runtime": {

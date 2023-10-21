@@ -74,19 +74,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vittorio\\.nuget\\packages\\": {}
+    "C:\\Users\\Clale\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
       "projectName": "JsonLibrary",
-      "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
-      "packagesPath": "C:\\Users\\Vittorio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\obj\\",
+      "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+      "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vittorio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -98,8 +98,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
-              "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+            "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+              "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
             }
           }
         }

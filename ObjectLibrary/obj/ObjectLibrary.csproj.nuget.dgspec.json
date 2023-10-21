@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {}
+    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
         "projectName": "ObjectLibrary",
-        "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
-        "packagesPath": "C:\\Users\\Vittorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vittorio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

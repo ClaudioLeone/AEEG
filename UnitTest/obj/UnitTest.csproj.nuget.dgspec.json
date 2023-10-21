@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj": {}
+    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj": {
+    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj",
+        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj",
         "projectName": "AEEG",
-        "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj",
-        "packagesPath": "C:\\Users\\Vittorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\obj\\",
+        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj",
+        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\AEEG\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vittorio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,131 +26,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {
-                "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj"
+              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {
+                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj"
               },
-              "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
-                "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj"
+              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
+                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj"
               },
-              "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
-                "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
-        "projectName": "ClientLibrary",
-        "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
-        "packagesPath": "C:\\Users\\Vittorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ClientLibrary\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Vittorio\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
-                "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj"
-              },
-              "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
-                "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
-        "projectName": "JsonLibrary",
-        "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
-        "packagesPath": "C:\\Users\\Vittorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\JsonLibrary\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Vittorio\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
-                "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
               }
             }
           }
@@ -190,17 +73,140 @@
         }
       }
     },
-    "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
-        "projectName": "ObjectLibrary",
-        "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
-        "packagesPath": "C:\\Users\\Vittorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\obj\\",
+        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
+        "projectName": "ClientLibrary",
+        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
+        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vittorio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
+                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj"
+              },
+              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+        "projectName": "JsonLibrary",
+        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+        "projectName": "ObjectLibrary",
+        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -249,17 +255,17 @@
         }
       }
     },
-    "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj": {
+    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
-        "packagesPath": "C:\\Users\\Vittorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\UnitTest\\obj\\",
+        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vittorio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -271,8 +277,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj": {
-                "projectPath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj"
+              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj": {
+                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj"
               }
             }
           }
