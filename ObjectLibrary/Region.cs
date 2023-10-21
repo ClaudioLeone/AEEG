@@ -1,13 +1,15 @@
+using System.Security.Principal;
+
 namespace Object
 {
 
     public class Region
     {
-        public string? RegionName { get; set; }
-        public int ConsumptionE { get; set; }
-        public int ConsumptionG { get; set; }
-        public byte Strike {get; set;}
-        public List<Structure> Structure { get; set; }
+        public string? RegionName { get; private set; }
+        public int ConsumptionE { get; private set; }
+        public int ConsumptionG { get; private set; }
+        public byte Strike { get; set; }
+        private List<Structure> Structure { get; set; }
 
         public Region(string regionName, int consumptionE, int consumptionG, byte strike, List<Structure> structure)
         {
@@ -31,6 +33,67 @@ namespace Object
                     production[1] += s.Production;
                 }
             return production;
+        }
+
+        public void AddStructure(int input)
+        {
+            try
+            {
+                switch (input)
+                {
+                    case 1:
+                        Structure.Add(new Structure(true, "Wind Farm", 1000));
+                        break;
+                    case 2:
+                        Structure.Add(new Structure(true, "Dam", 400));
+                        break;
+                    case 3:
+                        Structure.Add(new Structure(true, "Power Plant", 1200));
+                        break;
+                    case 4:
+                        Structure.Add(new Structure(true, "Gas Distribution Plant", 100000));
+                        break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine(" input number must be one from the menu! Retry.");
+                        break;
+                }
+                Console.Clear();
+                Console.WriteLine("Success: the structure has been added!");
+            }
+            catch (Exception ex)
+            {
+                Console.Clear();
+                Console.WriteLine(" input number must be one from the menu! Retry." + ex.Message);
+            }
+        }
+        public void DontWorkStructure(int input)
+        {
+            switch (input)
+            {
+                case 1:
+                    Structure? wind = Structure.Find(s => s.Work == true && s.Type == "Wind Farm");
+                    wind?.changeWork();
+                    break;
+                case 2:
+                    Structure? dam = Structure.Find(s => s.Work == true && s.Type == "Dam");
+                    dam?.changeWork();
+                    break;
+                case 3:
+                    Structure? electric = Structure.Find(s => s.Work == true && s.Type == "Power Plant");
+                    electric?.changeWork();
+                    break;
+                case 4:
+                    Structure? Gas = Structure.Find(s => s.Work == true && s.Type == "Gas Distribuction Plant");
+                    Gas?.changeWork();
+                    break;
+                default:
+                    Console.Clear();
+                    Console.WriteLine(" invalid input entered. Retry.");
+                    break;
+            }
+            Console.Clear();
+            Console.WriteLine("Success: the structure has been removed!");
         }
         public bool ICanDo(List<Contract> contracts, string what, int donation) // Verify if Region can give electricity or gas
         {
@@ -71,7 +134,8 @@ namespace Object
                     return false;
                 }
             }
-            else{
+            else
+            {
                 Console.WriteLine("Warning: invalid input entered.");
             }
             return false;

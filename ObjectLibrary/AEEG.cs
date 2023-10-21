@@ -13,17 +13,8 @@ namespace Object
             {
                 foreach (Region r in ItalianRegion)
                 {
-                    foreach (Structure s in r.Structure)
-                    {
-                        if (s.Type != "Gas Distribution Plant" && s.Work != false)
-                        {
-                            production[0] += s.Production;
-                        }
-                        else
-                        {
-                            production[1] += s.Production;
-                        }
-                    }
+                    production[0] += r.Production()[0];
+                    production[1] += r.Production()[1];
                 }
             }
             catch (Exception ex)

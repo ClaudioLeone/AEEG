@@ -26,7 +26,7 @@ public class Client
             switch (input)
             {
                 case 1:
-                List<Region> RegionName = aeeg.Regions();
+                    List<Region> RegionName = aeeg.Regions();
                     foreach (Region region in RegionName)
                     {
                         Console.WriteLine($"{region.RegionName}");
@@ -41,7 +41,8 @@ public class Client
                     }
 
                     Region nameR = aeeg.FindRegion(nameRegion);
-                    if(nameR == null){
+                    if (nameR == null)
+                    {
                         Console.Clear();
                         Console.WriteLine(" invalid input! Retry.");
                         break;
@@ -72,7 +73,8 @@ public class Client
                                 break;
                             }
                             Region RequestR = aeeg.FindRegion(RequestRegion);
-                            if(RequestR == null){
+                            if (RequestR == null)
+                            {
                                 Console.Clear();
                                 Console.WriteLine(" invalid input! Retry.");
                                 break;
@@ -131,56 +133,12 @@ public class Client
                         case 2:
                             Console.WriteLine("What structure do you want to ADD?\n1. Wind Farm\n2. Dam\n3. Power Plant\n4. Gas Distribution Plant");
                             int input3 = int.Parse(Console.ReadLine());
-                            switch (input3)
-                            {
-                                case 1:
-                                    nameR.Structure.Add(new Structure(true, "Wind Farm", 1000));
-                                    break;
-                                case 2:
-                                    nameR.Structure.Add(new Structure(true, "Dam", 400));
-                                    break;
-                                case 3:
-                                    nameR.Structure.Add(new Structure(true, "Power Plant", 1200));
-                                    break;
-                                case 4:
-                                    nameR.Structure.Add(new Structure(true, "Gas Distribution Plant", 100000));
-                                    break;
-                                default:
-                                    Console.Clear();
-                                    Console.WriteLine(" input number must be one from the menu! Retry.");
-                                    break;
-                            }
-                            Console.Clear();
-                            Console.WriteLine("Success: the structure has been added!");
+                            nameR.AddStructure(input3);
                             break;
                         case 3:
                             Console.WriteLine("What structure do you want to REMOVE?\n1. Wind Farm\n2. Dam\n3. Power Plant\n4. Gas Distribution Plant");
                             int input4 = int.Parse(Console.ReadLine());
-                            switch (input4)
-                            {
-                                case 1:
-                                    Structure? wind = nameR.Structure.Find(s => s.Work == true && s.Type == "Wind Farm");
-                                    wind?.changeWork();
-                                    break;
-                                case 2:
-                                    Structure? dam = nameR.Structure.Find(s => s.Work == true && s.Type == "Dam");
-                                    dam?.changeWork();
-                                    break;
-                                case 3:
-                                    Structure? electric = nameR.Structure.Find(s => s.Work == true && s.Type == "Power Plant");
-                                    electric?.changeWork();
-                                    break;
-                                case 4:
-                                    Structure? Gas = nameR.Structure.Find(s => s.Work == true && s.Type == "Gas Distribuction Plant");
-                                    Gas?.changeWork();
-                                    break;
-                                default:
-                                    Console.Clear();
-                                    Console.WriteLine(" invalid input entered. Retry.");
-                                    break;
-                            }
-                            Console.Clear();
-                            Console.WriteLine("Success: the structure has been removed!");
+                            nameR.DontWorkStructure(input4);
                             break;
                         case 4:
                             List<Contract> yourContrats = aeeg.YourContract(nameR);
@@ -205,7 +163,7 @@ public class Client
                     Console.WriteLine($"Electricity production: {tot[0]} GigaWatts\nGas Production: {tot[1]} CubicMeters");
                     break;
                 case 3:
-                List<Region> regions = aeeg.Regions();
+                    List<Region> regions = aeeg.Regions();
                     foreach (Region region in regions)
                     {
                         Console.WriteLine(region);
