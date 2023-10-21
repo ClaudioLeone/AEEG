@@ -19,7 +19,7 @@ public class Client
             catch (FormatException)
             {
                 Console.Clear();
-                Console.WriteLine(" input must be a number! Retry.");
+                Console.WriteLine("Input must be a number! Retry.");
                 continue;
             }
 
@@ -44,7 +44,7 @@ public class Client
                     if (nameR == null)
                     {
                         Console.Clear();
-                        Console.WriteLine(" invalid input! Retry.");
+                        Console.WriteLine("Invalid input! Retry.");
                         break;
                     }
 
@@ -57,7 +57,7 @@ public class Client
                     catch (FormatException)
                     {
                         Console.Clear();
-                        Console.WriteLine(" input must be a number! Retry.");
+                        Console.WriteLine("Input must be a number! Retry.");
                         break;
                     }
 
@@ -76,7 +76,7 @@ public class Client
                             if (RequestR == null)
                             {
                                 Console.Clear();
-                                Console.WriteLine(" invalid input! Retry.");
+                                Console.WriteLine("Invalid input! Retry.");
                                 break;
                             }
 
@@ -86,7 +86,7 @@ public class Client
                             if (!Regex.IsMatch(RequestType.ToUpper(), @"^(Electricity|Gas)$", RegexOptions.IgnoreCase))
                             {
                                 Console.Clear();
-                                Console.WriteLine(" invalid input entered! Input must be one of the two choices shown.");
+                                Console.WriteLine("Invalid input entered! Input must be one of the two choices shown.");
                                 break;
                             }
 
@@ -154,7 +154,7 @@ public class Client
                             return;
                         default:
                             Console.Clear();
-                            Console.WriteLine(" invalid input entered. Retry.");
+                            Console.WriteLine("Invalid input entered. Retry.");
                             break;
                     }
                     break;
@@ -189,7 +189,7 @@ public class Client
                     return;
                 default:
                     Console.Clear();
-                    Console.WriteLine("Warning: invalid input entered. Retry.");
+                    Console.WriteLine("Warning:Invalid input entered. Retry.");
                     break;
             }
             json.WriteFile(aeeg);

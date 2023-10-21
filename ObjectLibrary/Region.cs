@@ -83,13 +83,13 @@ namespace Object
                         Gas?.changeWork();
                         break;
                     default:
-                        return $" invalid input entered. Retry.";
+                        return $"Invalid input entered. Retry.";
                 }
                 return $"Success: the structure has been removed!";
             }
             catch (Exception ex)
             {
-                return $" invalid input entered. Retry.";
+                return $"Invalid input entered. Retry.";
             }
         }
         public bool ICanDo(List<Contract> contracts, string what, int donation) // Verify if Region can give electricity or gas
