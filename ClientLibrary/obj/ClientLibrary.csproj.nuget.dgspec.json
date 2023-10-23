@@ -1,36 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {}
+    "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {
+    "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ClientLibrary\\ClientLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
         "projectName": "ClientLibrary",
-        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
-        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ClientLibrary\\obj\\",
+        "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ClientLibrary\\ClientLibrary.csproj",
+        "packagesPath": "C:\\Users\\FMF-Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ClientLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FMF-Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
-                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj"
+              "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\JsonLibrary\\JsonLibrary.csproj"
               },
-              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
-                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+              "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
               }
             }
           }
@@ -64,30 +71,37 @@
         }
       }
     },
-    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
+    "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\JsonLibrary\\JsonLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
         "projectName": "JsonLibrary",
-        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
-        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\JsonLibrary\\obj\\",
+        "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\JsonLibrary\\JsonLibrary.csproj",
+        "packagesPath": "C:\\Users\\FMF-Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\JsonLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FMF-Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
-                "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
+              "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+                "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj"
               }
             }
           }
@@ -127,22 +141,29 @@
         }
       }
     },
-    "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
+    "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
         "projectName": "ObjectLibrary",
-        "projectPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
-        "packagesPath": "C:\\Users\\Clale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\obj\\",
+        "projectPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+        "packagesPath": "C:\\Users\\FMF-Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Clale\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FMF-Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

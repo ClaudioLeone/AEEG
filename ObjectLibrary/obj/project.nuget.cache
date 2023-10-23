@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jvBnvuKWhnZo9VQEzXGiyPQMhH1l1upw+jsLGU3jpiUEHrMijXaxwyX1xXKjevsjeTEj8q4b6cqOjqr+nbZxkw==",
+  "dgSpecHash": "mH3tD0PvWBzRZK0S1n3p7cYsbFmcyzfHasRB4dNzxjk6IXuqmgFKzkG60ZsQ/8I1/xzOx1oaodnAZWe3tloibg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Clale\\Desktop\\GitHub\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
+  "projectFilePath": "C:\\Users\\FMF-Guest\\Desktop\\Leone\\Assignments\\AEEG\\ObjectLibrary\\ObjectLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Clale\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\FMF-Guest\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
