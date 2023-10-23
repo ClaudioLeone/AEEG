@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace Object
 {
 
@@ -5,7 +7,10 @@ namespace Object
     {
         public string? RegionDonor { get; private set; }
         public string? RegionUser { get; private set; }
+
+        [JsonProperty]
         private string? DateStart { get; set; }
+        [JsonProperty]
         private string? DateEnd { get; set; }
         public string? WhatToDonate { get; private set; }
         public int DonationValue { get; private set; }

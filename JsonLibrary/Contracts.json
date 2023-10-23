@@ -1,1 +1,40 @@
-{"Abruzzo":[{"RegionDonor":"Piemonte","RegionUser":"Abruzzo","WhatToDonate":null,"DonationValue":1000}],"Basilicata":[],"Calabria":[],"Campania":[],"Emilia Romagna":[],"Friuli Venezia Giulia":[],"Lazio":[],"Liguria":[],"Lombardia":[],"Marche":[],"Molise":[],"Piemonte":[{"RegionDonor":"Piemonte","RegionUser":"Abruzzo","WhatToDonate":null,"DonationValue":1000}],"Puglia":[],"Sardegna":[],"Sicilia":[],"Toscana":[],"Trentino Alto Adige":[],"Umbria":[],"Valle D'Aosta":[],"Veneto":[]}
+{
+  "Abruzzo": [
+    {
+      "RegionDonor": "Piemonte",
+      "RegionUser": "Abruzzo",
+      "DateStart": "17/10/2023",
+      "DateEnd": "20/10/2023",
+      "WhatToDonate": "Electricity",
+      "DonationValue": 1000
+    }
+  ],
+  "Basilicata": [],
+  "Calabria": [],
+  "Campania": [],
+  "Emilia Romagna": [],
+  "Friuli Venezia Giulia": [],
+  "Lazio": [],
+  "Liguria": [],
+  "Lombardia": [],
+  "Marche": [],
+  "Molise": [],
+  "Piemonte": [
+    {
+      "RegionDonor": "Piemonte",
+      "RegionUser": "Abruzzo",
+      "DateStart": "17/10/2023",
+      "DateEnd": "20/10/2023",
+      "WhatToDonate": "Electricity",
+      "DonationValue": 1000
+    }
+  ],
+  "Puglia": [],
+  "Sardegna": [],
+  "Sicilia": [],
+  "Toscana": [],
+  "Trentino Alto Adige": [],
+  "Umbria": [],
+  "Valle D'Aosta": [],
+  "Veneto": []
+}

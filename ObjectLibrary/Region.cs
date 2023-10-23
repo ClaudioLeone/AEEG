@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace Object
 {
     public class Region
@@ -6,6 +8,7 @@ namespace Object
         public int ConsumptionE { get; private set; }
         public int ConsumptionG { get; private set; }
         public byte Strike { get; set; }
+        [JsonProperty]
         private List<Structure> Structure { get; set; }
 
         public Region(string regionName, int consumptionE, int consumptionG, byte strike, List<Structure> structure)
