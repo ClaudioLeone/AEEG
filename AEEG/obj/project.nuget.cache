@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pBmVmcveKjR3wTuCuQX6xVHe3ZZN2DA6EYGyZYBJUbCotMD36Tgv0P5ZSP76ZDsguJicYBDrqKE6EC/KK9YbAg==",
+  "dgSpecHash": "uo69gjMWzYuds5n/oOKc8OENF7jchR0XIhpqN13Ltq0s3sqdQ9A0C+Ipi+jzKAnk/g9ySVLWjI9rl2kvQf3TtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vittorio\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj",
+  "projectFilePath": "C:\\Users\\FMF-Guest\\Desktop\\GitHub\\AEEG\\AEEG\\AEEG.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vittorio\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\FMF-Guest\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
