@@ -114,11 +114,12 @@ namespace Object
                 List<Contract>? list = new List<Contract>();
                 contract.TryGetValue(regionDonor.RegionName, out list);
                 bool CanDo = regionDonor.ICanDo(list, contr.WhatToDonate, contr.DonationValue);
-                if (CanDo == true)
+                if (CanDo)
                 {
                     list.Add(contr);
                     contract.TryGetValue(contr.RegionUser, out list);
                     list.Add(contr);
+
                     return "The contract has been stipulated successfully";
                 }
                 else

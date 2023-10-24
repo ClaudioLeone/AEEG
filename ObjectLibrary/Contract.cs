@@ -12,6 +12,7 @@ namespace Object
         private string? DateStart { get; set; }
         [JsonProperty]
         private string? DateEnd { get; set; }
+        [JsonProperty]
         public string? WhatToDonate { get; private set; }
         public int DonationValue { get; private set; }
 
